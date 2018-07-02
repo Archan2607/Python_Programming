@@ -20,8 +20,6 @@ def result():
     res = 0
     for i in range(n):
         res = max(res,larZigZagSumInMatrix(0,i))
-        # for j in dp:
-        #     print(j)
     print(res)
 t = int(input())
 for _ in range(t):
